@@ -28,18 +28,24 @@ This app provides an interactive, intelligent interface to explore, preprocess, 
    ```bash
    git clone https://github.com/your-username/ai-data-insights-app.git
    cd ai-data-insights-app
+   ```
 2.Install dependencies
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3.Set up environment variables
 
 Create a .env file and add your NVIDIA API key:
-NVIDIA_API_KEY=your_actual_nvidia_api_key
+   ```bash
+   NVIDIA_API_KEY=your_actual_nvidia_api_key
+   ```
 
 4.Run the app
-
-streamlit run new.py
+      ```bash
+      streamlit run new.py
+      ```
 
 ✨ Example Use Cases
 “Impute column ‘age’ with median”
